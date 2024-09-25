@@ -1,15 +1,10 @@
-# MF-Saudi: A Multimodal Framework for Bridging the Gap Between Audio and Textual Data for Saudi Dialect Detection
-This is the source code for the paper: MF-Saudi: A Multimodal Framework for Bridging the Gap Between Audio and Textual Data for Saudi Dialect Detection by Raed Alharbi, proceeding in Journal of King Saud University - Computer and Information Sciences - 2024 
+# Heart Failure Prediction Using ANN
+This is the source code for project of the Heart Failure Prediction Using ANN
 
 ## Files
 
-- `data_processing.py`: Contains functions for loading and preprocessing data.
+- `Heart Failure Prediction Using ANN model.py`: Contains functions for loading and preprocessing data.
 - `models.py`: Contains the main models in the paper.
-- `model_training.py`: Contains the main training loop for the model.
-- `plotting.py`: Contains functions for plotting training metrics.
-- `feature_extraction.py`: Contains functions for extracting features from text and audio.
-- `utils.py`: Contains utility functions such as learning rate scheduling and downloading pre-trained models.
-- `example.ipynb`: example file to run the training script from jupyter notebook.
 
 ## Requirements
 
@@ -30,12 +25,9 @@ pip install -r requirements.txt
 --------------------------------------------------
 To train the model, you can use the following script:
  ```
-python /content/drive/MyDrive/journal_SADA/github_code/main.py --train_path /content/drive/MyDrive/journal_SADA/train.csv --valid_path /content/drive/MyDrive/journal_SADA/valid.csv --base /content/drive/MyDrive/journal_SADA/batch1/batch_1
- ```
-
-or, if you prefer to use jupyter notebook, check the file: example.ipynb
+if you prefer to use jupyter notebook, check the file: example.ipynb
 
 --------------------------------------------------
-**Dataset**  You can download the dataset used in the expeirment from: (https://www.kaggle.com/datasets/sdaiancai/sada2022)
+**Dataset**  You can download the dataset used in the expeirment from:(https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data))
 
 
