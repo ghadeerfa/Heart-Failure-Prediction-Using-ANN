@@ -1,10 +1,11 @@
 # Heart Failure Prediction Using ANN
-This is the source code for project of the Heart Failure Prediction Using ANN
+This is the code for project of the Heart Failure Prediction Using ANN : The dataset used to train ANN models to predict whether a patient with heart failure is likely to die during the follow-up period. This information can be used to help doctors make better decisions about patient care.
 
 ## Files
 
 - `Heart Failure Prediction Using ANN.ipynb`: Contains of all the code for loading and preprocessing data and bulid the model .
-- 
+- `heart_failure_clinical_records_dataset.csv`: contains the dataset used in this model
+
 ## Requirements
 
 In order to run the code, will need:
